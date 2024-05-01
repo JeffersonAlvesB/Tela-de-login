@@ -20,7 +20,7 @@ formulario.addEventListener("submit", (event) => {
   formulario.submit();
 });
 
-//Fução validar email
+//Função validar email
 function emailValido(emails) {
   const emailRegex = new RegExp(
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
